@@ -108,3 +108,4 @@ if res.status_code == 200:
     print(index+1,item['title'],item['link'])
 else:
   print("error Code :",res.status_code)
+

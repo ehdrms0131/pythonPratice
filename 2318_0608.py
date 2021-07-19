@@ -121,7 +121,7 @@ def write_excel_template(filename,sheetname,listdata):
   excel_file.save(filename)
   excel_file.close()
 
-  import requests
+import requests
 from bs4 import BeautifulSoup
 
 product_lists = list()
